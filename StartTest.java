@@ -3,11 +3,12 @@ public class StartTest {
 
         Computer computer = new Computer(4, 32, "Nvidia", 256);
 
-        Computer computer2 = new Computer();
+        Notebook computer2 = new Notebook();
         computer2.setCpu(12);
         computer2.setSsd(512);
         computer2.setMemory(64);
         computer2.setVideoCard("Radion");
+        computer2.setScreenSize(12);
 
         System.out.println("Computer1: " + computer);
 
